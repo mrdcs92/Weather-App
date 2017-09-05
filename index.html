@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>Weather App</title>
+    </head>
+    
+    <body>
+        <div class="container">
+          <div class="text-center">
+            <h1>Weather App</h1>
+            <h1 id="locName"></h1>
+            <p><span id="temp"></span><span id="degreeLetter"></span></p>
+            <h1 id="desc"></h1>
+          </div>
+        
+          <div class="text-center all-icon">
+            <div class="icon sun-shower hide ">
+              <div class="cloud"></div>
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+              <div class="rain"></div>
+            </div>
+            <div class="icon thunder-storm hide thunderstom">
+              <div class="cloud"></div>
+              <div class="lightning">
+                <div class="bolt"></div>
+                <div class="bolt"></div>
+              </div>
+            </div>
+            <div class="icon cloudy hide clouds">
+              <div class="cloud"></div>
+              <div class="cloud"></div>
+            </div>
+            <div class="icon flurries hide snow">
+              <div class="cloud"></div>
+              <div class="snow">
+                <div class="flake"></div>
+                <div class="flake"></div>
+              </div>
+            </div>
+            <div class="icon sunny hide clear">
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+            </div>
+            <div class="icon rainy hide rain">
+              <div class="cloud"></div>
+              <div class="rain"></div>
+            </div>
+          </div>
+        </div>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
